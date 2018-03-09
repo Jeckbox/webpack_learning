@@ -3,7 +3,8 @@ import { Router, Switch, Route } from 'react-router-dom';
 import createHistory from 'history/createHashHistory';
 import First from '../First/Loadable.js';
 import Second from '../Second/Loadable.js';
-
+const aa = "dasd";
+const bb = "dasd";
 const history = createHistory();
 class App extends React.Component {
     render() {
