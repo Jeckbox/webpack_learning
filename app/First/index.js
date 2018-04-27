@@ -4,7 +4,7 @@ class First extends PureComponent {
     render() {
         return(
             <div>
-                <div>第一aaa页</div>
+                <div>第一页</div>
                 <button
                     onClick={() => {
                         this.props.history.push('/second');
