@@ -48,6 +48,7 @@ module.exports = {
         "jsx-a11y/media-has-caption": 0,
         "jsx-a11y/no-static-element-interactions": 0,
         "jsx-a11y/role-has-required-aria-props": 2,
-        "jsx-a11y/role-supports-aria-props": 2
+        "jsx-a11y/role-supports-aria-props": 2,
+        "react/forbid-prop-types": 0,
     }
 };

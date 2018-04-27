@@ -1,21 +1,14 @@
 import React from 'react';
-import { Router, Switch, Route } from 'react-router-dom';
-import createHistory from 'history/createHashHistory';
-import First from '../First/Loadable.js';
-import Second from '../Second/Loadable.js';
-const aa = "dasd";
-const bb = "dasd";
-const history = createHistory();
+import {  Switch, Route } from 'react-router-dom';
+import Dashboard from '../Dashboard/Loadable.js';
+
 class App extends React.Component {
     render() {
         return(
-            <div>
-                <Router history={history}>
-                    <Switch>
-                        <Route exact path="/" component={First} />
-                        <Route exact path="/second" component={Second} />
-                    </Switch>
-                </Router>
+            <div style={{ fontFamily: '微软雅黑' }}>
+                <Switch>
+                    <Route path="/" component={Dashboard} />
+                </Switch>
             </div>
         );
     }
